@@ -19,7 +19,6 @@
         <page name='16. 제네릭'/>
         <page name='17. ARC, 강한 약한 미소유 참조'/>
         <page name='18. 클로저'/>
-        <page name='코딩 테스트 문제들'/>
         <page name='특강 자료들'/>
         <page name='@escaping Closure'/>
         <page name='8월 16일 7시 특강'/>
@@ -30,6 +29,8 @@
         <page name='최대힙'/>
         <page name='Notification'/>
         <page name='클로저 데이터 핸들링'/>
-        <page name='컴바인'/>
+        <page name='컴바인'/>
+        <page name='코딩 테스트 문제들'/>
+        <page name='필수적으로 알아야 할 함수들'/>
     </pages>
 </playground>
