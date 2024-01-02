@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='1. Var_To_Collection'/>
+        <page name='2. Forin_To_Enum'/>
+        <page name='3. Class_To_Property'/>
+        <page name='4. methods'/>
+        <page name='5. 클래스 , 구조체 공부'/>
+        <page name='6. subscript'/>
+        <page name='7. 상속'/>
+        <page name='8. 초기화'/>
+        <page name='9. 초기화의 2단계와 상속, 소멸자'/>
+        <page name='10. 옵셔널 체이닝'/>
+        <page name='11. 에러 처리'/>
+        <page name='12. 타입 캐스팅'/>
+        <page name='13. 중첩된 타입'/>
+        <page name='14. 확장'/>
+        <page name='15. 프로토콜'/>
+        <page name='16. 제네릭'/>
+        <page name='17. ARC, 강한 약한 미소유 참조'/>
+        <page name='18. 클로저'/>
+        <page name='코딩 테스트 문제들'/>
+        <page name='특강 자료들'/>
+        <page name='@escaping Closure'/>
+        <page name='8월 16일 7시 특강'/>
+        <page name='2. 선발대 - 옵셔널'/>
+        <page name='3. 선발대 - 열거체'/>
+        <page name='YouTube'/>
+        <page name='YouTube- categoryId 에서는..'/>
+        <page name='최대힙'/>
+        <page name='Notification'/>
+        <page name='클로저 데이터 핸들링'/>
+        <page name='컴바인'/>
+    </pages>
+</playground>
