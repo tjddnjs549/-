@@ -29,8 +29,9 @@ print("테스트 - \(numberSum)") // 10, 후행 클로저로도 사용 가능
 /// func contains(_ element: Self.Element) -> Bool
 
 let containsNumber = [1, 2, 3, 4, 5]
+let containsStr = "ab6CDE443fgh22iJKlmn1o"
 
-if containsNumber.contains(3) {
+if containsStr.contains("6CD") {
     print("The array contains 3.")
 } else {
     print("The array does not contain 3.")
@@ -116,4 +117,47 @@ for char in reversedword.reversed() {
 
 
 
+
+
+// MARK: - sort (정렬)
+
+/// 설명: sort는 Comparable을 만족하는 Element를 정렬하는 인스턴스 메서드
+/// 리턴값 없음
+
+
+
+var sortNums: [Int] = [7, 6, 9, 2, 4, 5, 1, 8, 3]
+var sortNames: [String] = ["break", "fast", "car", "apple", "drive", "ensure", "gear"]
+
+
+sortNums.sort() // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+sortNames.sort() // ["apple", "break", "car", "drive", "ensure", "fast", "gear"]
+
+print(sortNums) // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(sortNames) // ["apple", "break", "car", "drive", "ensure", "fast", "gear"]
+
+sortNums.sort(by: >)
+sortNames.sort(by: >)
+
+print(sortNums)
+print(sortNames)
+
+
+
+
+
+// MARK: - sorted (정렬)
+
+/// 설명: sort는 Comparable을 만족하는 Element를 정렬하는 인스턴스 메서드
+/// 리턴값 있음
+
+
+
+var sortedNums: [Int] = [7, 6, 9, 2, 4, 5, 1, 8, 3]
+
+var sortedNumber = sortedNums.sorted { lhs, rhs in
+  lhs > rhs
+}
+
+print(sortedNumber) // [9, 8, 7, 6, 5, 4, 3, 2, 1]
 
