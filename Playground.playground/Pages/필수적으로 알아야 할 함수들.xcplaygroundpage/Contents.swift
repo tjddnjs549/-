@@ -162,3 +162,26 @@ var sortedNumber = sortedNums.sorted { lhs, rhs in
 
 print(sortedNumber) // [9, 8, 7, 6, 5, 4, 3, 2, 1]
 
+
+
+
+// MARK: - pow()함수 , sqrt 제곱근 함수
+
+/// 설명: 제곱을 구할 때 사용
+/// func pow(_: Double, _: Double) -> Double
+
+let powValue = 3.0
+pow(powValue, 2) // 9.0
+
+
+/// 설명: 제곱근 구할 때 사용
+/// func sqrt(_: Double) -> Double
+
+let sqrtValue = 9.0
+sqrt(sqrtValue) // 3.0
+
+
+
+
+// MARK: - <#내용입력#>
+
