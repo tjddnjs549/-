@@ -183,5 +183,19 @@ sqrt(sqrtValue) // 3.0
 
 
 
-// MARK: - <#내용입력#>
+// MARK: - uppercased(), lowercased() (대소문자)
+
+
+/// 설명: 대소문자로 변환해주는 함수
+/// upperCased/lowerCased 아님 (C -> 대문자 ❌)
+
+
+
+let caseStr = "Hello Swift"
+caseStr.uppercased() // "HELLO SWIFT"
+caseStr.lowercased() // "hello swift"
+
+let caseStr1 = "안녕123!"
+caseStr1.uppercased() // "안녕123!"
+caseStr1.lowercased() // "안녕123!"
 
