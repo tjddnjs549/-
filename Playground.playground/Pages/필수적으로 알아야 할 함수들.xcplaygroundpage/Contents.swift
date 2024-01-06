@@ -80,8 +80,9 @@ let mapNumber = [1, 2, 3, 4, 5]
 let mapNumbers = mapNumber.map { $0 * 2 }
 print(mapNumbers) // [2, 4, 6, 8, 10]
 
-
-
+let mapStr = "1234"
+print("테스트 - \(mapStr.map {Int(String($0))!}.reduce(0 , +))")
+//Int(String($0))! 이 부분 char -> String -> Int 로 바꿈 (문자열의 map을 적용하면 문자로 매핑 변환)
 
 
 
