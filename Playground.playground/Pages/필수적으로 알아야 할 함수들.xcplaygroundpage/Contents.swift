@@ -199,3 +199,29 @@ let caseStr1 = "안녕123!"
 caseStr1.uppercased() // "안녕123!"
 caseStr1.lowercased() // "안녕123!"
 
+
+
+
+// MARK: - components(separatedBy: )
+
+/// func components<T>(separatedBy separator: T) -> [String] where T : StringProtocol
+/// 설명:Returns an array containing substrings from the string that have been divided by the given separator.
+
+
+
+var componentsString = "I love You"
+var separatedByString = componentsString.components(separatedBy: " ")
+print(separatedByString)
+separatedByString.index(<#T##i: Int##Int#>, offsetBy: <#T##Int#>)
+
+
+
+
+
+// MARK: - joined() 
+
+
+
+
+
+
