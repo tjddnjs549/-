@@ -86,6 +86,26 @@ print("테스트 - \(mapStr.map {Int(String($0))!}.reduce(0 , +))")
 
 
 
+
+
+// MARK: - compactMap {}
+
+/// 설명: Returns an array containing the non-nil results of calling the given transformation with each element of this sequence.
+/// func compactMap<ElementOfResult>(_ transform: (Self.Element) throws -> ElementOfResult?) rethrows -> [ElementOfResult]
+
+let compactMapNum = ["1", "2", "three", "4", "//5//"]
+
+
+let compactMapNumToMap = compactMapNum.map { Int($0) }
+print("테스트 - \(compactMapNumToMap)") // [Optional(1), Optional(2), nil, Optional(4), nil]
+
+let compactMapNumbers = compactMapNum.compactMap { Int($0) }
+print("테스트 - \(compactMapNumbers)") // [1, 2, 4]
+
+
+
+
+
 // MARK: - reverse (뒤집기)
 
 /// reverse설명: Reverses the elements of the collection in place.
@@ -212,7 +232,6 @@ caseStr1.lowercased() // "안녕123!"
 var componentsString = "I love You"
 var separatedByString = componentsString.components(separatedBy: " ")
 print(separatedByString)
-separatedByString.index(<#T##i: Int##Int#>, offsetBy: <#T##Int#>)
 
 
 
