@@ -233,14 +233,50 @@ var componentsString = "I love You"
 var separatedByString = componentsString.components(separatedBy: " ")
 print(separatedByString)
 
+var componentStr = "pPoooyY"
+
+print("테스트 - \(componentStr.lowercased().components(separatedBy: "p"))")
+//테스트 - ["", "", "oooyy"]
+print("테스트 - \(componentStr.lowercased().components(separatedBy: "y"))")
+//테스트 - ["ppooo", "", ""]
 
 
 
 
-// MARK: - joined() 
+
+// MARK: - joined(separator: )
+
+
+/// 설명: Returns the concatenated elements of this sequence of sequences, inserting the given separator between each element.
+
+var joinedString = "12345"
+
+// 중간에 " "을 넣어 문자열로 만들기
+//func joined(separator: String = "") -> String
+let joinedArr = ["i", "am", "king", "!"]
+print(joinedArr.joined(separator: " ")) //i am king !
+
+
+///2차원 배열에 0을 넣어 1차원 배열으로 만들기
+///func joined<Separator>(separator: Separator) -> JoinedSequence<Self> where Separator : Sequence, Separator.Element == Self.Element.Element
+let joinedArr2 = [[1], [3], [5], [7]]
+let joined = joinedArr2.joined(separator: [0])
+print(Array(joined))
+// [1, 0, 3, 0, 5, 0, 7]
+
+
+///func joined() -> FlattenSequence<Self>
+let joinedranges = [0..<3, 3..<6, 6..<10]
+// joined를 사용하면 각각의 범위에 접근할 수 있음
+for index in joinedranges.joined() {
+    print(index, terminator: " ")
+}
+// 0 1 2 3 4 5 6 7 8 9
 
 
 
 
 
+
+// MARK: - <#내용입력#>
 
