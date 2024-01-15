@@ -247,7 +247,9 @@ print("테스트 - \(componentStr.lowercased().components(separatedBy: "y"))")
 // MARK: - joined(separator: )
 
 
+
 /// 설명: Returns the concatenated elements of this sequence of sequences, inserting the given separator between each element.
+/// 문자열 (String)만 가능.
 
 var joinedString = "12345"
 
@@ -278,5 +280,6 @@ for index in joinedranges.joined() {
 
 
 
-// MARK: - <#내용입력#>
+// MARK: - 
+
 
