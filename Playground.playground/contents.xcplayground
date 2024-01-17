@@ -29,7 +29,8 @@
         <page name='최대힙'/>
         <page name='Notification'/>
         <page name='클로저 데이터 핸들링'/>
-        <page name='코딩 테스트 수학공식'/>
         <page name='필수적으로 알아야 할 함수들'/>
+        <page name='코딩 테스트 수학공식'/>
+        <page name='문자열 (String)'/>
     </pages>
 </playground>
