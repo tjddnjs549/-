@@ -93,4 +93,12 @@ if let lastIndex {
 }
 
 
+// MARK: - 문자열 안 요소들이 조건에 맞는지 안 맞는지 판단하기 -> allSatisfy()
+
+
+// func allSatisfy(_ predicate: (Self.Element) throws -> Bool) rethrows -> Bool
+// Returns a Boolean value indicating whether every element of a sequence satisfies a given predicate.
+
+
+print("테스트 - \(a.allSatisfy { $0.isNumber })") // 테스트 - false
 
